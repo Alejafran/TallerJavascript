@@ -1,16 +1,16 @@
 
 function calculate() {
    
-   var One = parseInt(prompt("Type a value for a " ));
-   var Two = parseInt(prompt("Type a value for b " ));
+   var one = prompt("type a number for a");
+   var two = prompt("type a number for b");
    
-   var a = Math.pow(One, 2);
-   var b = Math.pow(Two, 2);
+   var a = Math.pow(one, 2);
+   var b = Math.pow(two, 2);
    var c= a + b;
    var d = Math.pow(c, 0,5);
    
-   console.log="hypotenuse= X²= a² + b² ";
-   console.log="hypotenuse= X²= "+ One +"² " + Two +"² = " + b;
+   console.log("hypotenuse= X²= a² + b²");
+   console.log("hypotenuse= X²= "+ one +"² " + two +"² = " + b);
    
    }
    
