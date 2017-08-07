@@ -1,7 +1,7 @@
 
 //variables locales:
 
-var option, i, myArray, sequence1;
+var option, i, myArray, sequence1, bubble2;
 
 //funciones:
 
@@ -45,14 +45,29 @@ function sequence () {
       var a = parseInt(myArray[i]);
               
       if (a === x){
-         console.log("Found item: "+ x);
+         console.log("Found item: "+ x); //hay que quitar este
       }
    }
+   return myArray;
 }
 
-
-
-
+ 
+ 
+function bubble (y){
+   y = myArray;
+   for(i =1; i < myArray.length; i++){
+      for(var j=0; j<(myArray.length - i); j++){
+         if (myArray[j] > myArray[j+1] ){
+            
+            var aux = myArray[j+1];
+            myArray[j+1] = myArray[j];
+            myArray[j] = aux;
+         }
+      }
+   }
+   console.log("Apply bubble sorting method: "+ myArray); //hay que quitar este 
+   return myArray;
+}
 
 
 // menu:
@@ -67,7 +82,7 @@ do {
       sequence2 = sequence();
    }
    if (option == 3) {
-      information3 =laboralReference();
+      bubble2 = bubble();
    }
    if (option == 4) {
       information4 =description();
