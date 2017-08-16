@@ -1,30 +1,16 @@
 
-var e=6;
-var a=1;
-var s="*";
-
-while (e>=1){
-   
-   var i=1;
-   var d=1;
-   
-   while(i<=e){
+ var a = "     *";
+ var b = "*";
+ var i = 1;
+ 
+ while (i <=5){
+    
+   if (a === "     *"){
       
-      console.log(" ");
-      
-      i++;
+      console.log(a);
    }
    
-   while(d<=a){
-      
-      console.log(s);
-      
-      d++;
-   }
+   console.log(a = (a.slice(1)+ b));
    
-   e--;
-   
-   a++;
-   
-   console.log("\u0009");
-}
+   i++;
+} 
