@@ -1,31 +1,3 @@
-
-var menu, i, option, name;
-
-do {
-
-   option = option1();
-
-   switch (option) {
-      case 0:
-         console.log("Goodbye");
-         break;
-      case 1:
-         save();
-         break;
-
-      case 2:
-         searchName();
-         break;
-
-      case 3:
-         searchCode();
-         break;
-
-      default:
-         console.log("Type a number from 0 to 3");
-   };
-} while (option !== 0);
-
 function option1() {
 
    menu = prompt("\
@@ -37,13 +9,14 @@ function option1() {
    0. Exit ");
 
    return parseInt(menu);
-};
+}
+;
 
 function save() {
 
-   items = new Array(i);
+   items = new Array();
 
-   for (i = 0; i === items.length; i++) {
+   for (var i = 0; i === items.length; i++) {
 
       var number = parseInt(prompt("Type '4' to back \n\Type '5' to continue add items"));
       if (number === 4) {
@@ -99,4 +72,33 @@ function searchCode() {
 
    return one;
 
+}
+
+
+var menu, i = 0, option, name;
+
+while (option !== 0) {
+
+   option = option1();
+
+   switch (option) {
+      case 0:
+         console.log("Goodbye");
+         break;
+      case 1:
+         save();
+         break;
+
+      case 2:
+         searchName();
+         break;
+
+      case 3:
+         searchCode();
+         break;
+
+      default:
+         console.log("Type a number from 0 to 3");
+         break;
+   }
 }
