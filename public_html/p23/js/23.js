@@ -13,7 +13,7 @@ function years() {
    var month = Math.floor(day / 30);
    var year = Math.floor(month / 12);
 
-   console.log("Dates: " +date1 + " - " + date2);
+   console.log("Dates: " +date2 + " - " + date1);
 
    console.log("there are " + day + " Days between the dates " + date1 + " and " + date2);
    console.log("there are " + month + " Months between the dates " + date1 + " and " + date2);
