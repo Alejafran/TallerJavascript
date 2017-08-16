@@ -13,12 +13,11 @@ function years() {
    var month = day / 30;
    var year = month / 12;
 
-   console.log(date1 + " - " + date2);
-   console.log();
+   console.log("Dates: " +date1 + " - " + date2);
 
-   console.log("there are " + day + " Days between the dates " + date1 + " and " + date2);
-   console.log("there are " + month + " Months between the dates " + date1 + " and " + date2);
-   console.log("there are " + year + " years between the dates " + date1 + " and " + date2);
+   console.log(parseInt("there are " + day + " Days between the dates " + date1 + " and " + date2));
+   console.log(parseInt("there are " + month + " Months between the dates " + date1 + " and " + date2));
+   console.log(parseInt("there are " + year + " years between the dates " + date1 + " and " + date2));
 }
 
 years ();
