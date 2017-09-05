@@ -4,9 +4,6 @@ console.log("In 15 Year there are:");
 var number = 12 * 15;
 console.log("months : "+number);
 
-var number = 48 * 15;
-console.log("Weeks: "+number);
-
 var number = 8760 * 15;
 console.log("Hours : "+number);
 
