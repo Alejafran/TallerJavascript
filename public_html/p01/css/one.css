@@ -1,0 +1,16 @@
+p{
+   font-family:cursive ;
+   font-size: 80px;
+   background: #fff;
+   padding: 20px;
+   border-radius: 50px;
+}
+
+.text {
+   background: #FFCBEA;
+   display: flex;
+   justify-content: center;
+   margin: 10%;
+   border-radius: 50px;
+   height: 300px;
+}
