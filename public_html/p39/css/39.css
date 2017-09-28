@@ -1,0 +1,27 @@
+
+*{
+   font-family: cursive;
+   font-size: 27px;
+}
+
+#color{
+    background: #A771FF;
+    padding: 30px;
+    margin-top:25vh;
+    height: 50vh;
+    border-radius: 30px;
+}
+#input{
+    background: #CDAFFF;
+    padding: 30px;
+}
+
+#answer{
+    margin-top: 30px;
+    background: #CDAFFF;
+    padding: 50px;
+}
+#button{
+    border-radius: 10px;
+    border: 2px solid #7D7D7D;
+}
