@@ -1,0 +1,14 @@
+.container{
+    margin: auto;
+}
+#css{
+    background: #ADFFFA;
+    border: 50px solid #C566FF;
+}
+p{
+    text-align: center;
+    padding: 16%;
+    font-size: 50px;
+    font-family: cursive;
+    color: #000;
+}
