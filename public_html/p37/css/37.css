@@ -1,0 +1,15 @@
+
+.container{
+    margin-top: 20%;
+}
+#css{
+    background: #FFADAD;
+    padding: 5%;
+    border: 3px solid #000;
+}
+#nombre{
+    text-align: center;
+}
+p{
+    color: #000;
+}
