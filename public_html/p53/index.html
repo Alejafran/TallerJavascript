@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--Alejandra Franco Tobón-->
+<html>
+   <head>
+      <title>exercise 53</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/53.css" rel="stylesheet">
+   </head>
+   
+   <body>
+      <!--margen-->
+      <div class="container col-md-6 col-md-offset-3" id="color">
+         <!--parte de arriba-->
+         <div>
+            <p>Rule of Three </p>
+         </div>
+         <!--operaciones-->
+         <div id="input" class="col-lg-12">
+            <div class="contenedor">
+               <form>
+                  <h5>Write the values from variables</h5>
+                  <div class="one">
+                     <input id="a" type="number" placeholder="a">
+                     <h1 class="line"></h1>
+                     <input id="b" type="number" placeholder="b">
+                  </div>
+                  <div class="one" id="two">
+                     <input id="c" type="number" placeholder="c">
+                     <h1 class="line"></h1>
+                     <input id="x" type="number" placeholder="x">
+                  </div>
+               </form>
+            </div>
+            <div id="solution"> <p>answer</p>  </div>
+         </div>
+         <!--boton-->
+         <div class="col-md-7 col-md-offset-4">
+            <button id="button" onclick="calculate()" type="button">Submit</button>
+         </div>
+      </div>
+      
+      <!--librerias-->
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/53.js"></script>
+   </body>
+</html>

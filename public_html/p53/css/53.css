@@ -1,0 +1,91 @@
+
+*{
+   font-family: cursive;
+   padding: 0px;
+}
+
+#color{
+    background: #CAADFF;
+    padding: 20px;
+    margin-top:10vh;
+    box-shadow: 0px 3px 5px;
+    border: 3px solid #7D7D7D;
+}
+p{
+    background: #fff;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 33px;
+}
+
+#input{
+    background: #FDE6FF;
+    padding: 0px 30px 0px 30px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+div form input{
+    width: 100%;
+    font-size: 20px;
+}
+
+div button{
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 2px solid #7D7D7D;
+    width: 150px;
+    font-size: 27px;   
+}
+#button:hover{
+    border: 2px solid #007672;
+    color: #007672;
+}
+
+h5{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div form{
+    margin: 20px 10px 20px 8px;
+}
+
+#solution{
+    height: 150px;
+    background: #fff;
+    text-align: center;
+}
+
+/*regla de 3-----------------------------------------------------------------------*/ 
+
+
+.contenedor{
+}
+
+.one{
+    display: flex;
+    width: 100% ;
+    justify-content: center;
+
+}
+.one input{
+    font-size: 40px;
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    border: 3px solid #685F78;
+}
+
+#two{
+    margin-top: 50px;
+}
+.line{
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #685F78;
+    margin: 25px 20px 0px 20px;
+}
