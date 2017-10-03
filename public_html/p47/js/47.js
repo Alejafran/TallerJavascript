@@ -11,7 +11,7 @@ function calculate(){
 
         i++;
 
-        $('#figure').text(one);
+        $('#figure').append(one+"<br>");
 
     }while (i <= 5);
 
