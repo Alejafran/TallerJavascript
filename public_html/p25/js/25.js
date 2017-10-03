@@ -10,55 +10,57 @@ while(i !== 10){
 
    i++;
 }
-//numeros pares ----------------------------------------------------------------
 
-//console.log("Pair Numbers");
-//
-//for (i=0; i<=number.length; i++){
-//
-//   if(number[i]%2 == 0){
-//
-//      console.log(number[i]);
-//      sp = sp+number[i];
-//      cp++;
-//   }
-//}
-//  
-//console.log("Sumatoria de pares: " + sp );
-//console.log("promedio de pares: " + (sp/cp));
+console.log("Pair Numbers:");
 
-//numeros primos ---------------------------------------------------------------
+i =0;
 
-for (i=0; i<=number.length; i++){
-   
-   var x=0;
-   var a=0;
-   var flag=1;
-   var s=0;
-   var c = 0;
-   var items = new Array(x);
-   
-   while(flag<=number[i]){
+while (i <= number.length){
 
-      if (number[i]%flag==0){
-         
-         a++;
-         
-         if(a==2){
-      
-            items.push(number[i]);
-            x++;
-         }
-      }
+   if(number[i]%2 === 0){
 
-      flag++;
+      console.log(number[i]);
+      sp = sp+number[i];
+      cp++;
    }
-   
+
    i++;
 }
 
- console.log(items);
+console.log("Sumatoria de pares: " + sp );
+console.log("promedio de pares: " + (sp/cp));
 
+//
+//for (i=0; i<=number.length; i++){
+//   
+//   var x =0;
+//   var a=0;
+//   var flag=1;
+//   var s=0;
+//   var c = 0;
+//   var items = [];
+//   
+//   while(flag<=number[i]){
+//
+//      if (number[i]%flag==0){
+//         
+//         a++;
+//      }
+//      if(a==2){
+//      console.log(number[i]);
+//
+//      }
+//
+//      flag++;
+//      
+//   }
+//   
+//   i++;
+//}
+//x=x-1;
+//for (var i=0; i<=x;i++){
+// console.log(items[i]);
+// }
 //items.forEach(function(element, index, array){
 //   
 //   console.log(element);
