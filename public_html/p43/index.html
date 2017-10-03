@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--Alejandra Franco Tobón-->
+<html>
+   <head>
+      <title>exercise 43</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/43.css" rel="stylesheet">
+   </head>
+   
+   <body>
+      <!--margen-->
+      <div class="container col-md-6 col-md-offset-3" id="color">
+         <!--parte de arriba-->
+         <div>
+            <p>Calculate :3 </p>
+         </div>
+         <!--operaciones-->
+         <div id="input" class="col-lg-12">
+            <form>
+               <input id="numberOne" type="number" placeholder="type value for 'x' ">
+               <input id="numberTwo" type="number" placeholder="type a value for 'y' ">
+            </form>
+            
+            <div class="answer">
+               <div id="powOne"> x ^ y =  </div>
+            </div>
+            
+            <div class="answer">
+               <div id="powTwo"> y ^ x = </div>
+            </div>
+            
+            <div class="answer">
+               <div id="multiplication"> x * y =  </div>
+            </div>
+            
+            <div class="answer">
+               <div id="divOne"> x / y =  </div>
+            </div>
+            
+            <div class="answer">
+               <div id="divTwo"> y / x = </div>
+            </div>
+            
+            <div class="answer">
+               <div id="mod"> x % y = </div>
+            </div>
+            
+         </div>
+         <!--boton-->
+         <div class="col-md-7 col-md-offset-4">
+            <button id="button" onclick="calculate()" type="button">answer</button>
+         </div>
+      </div>
+      
+      <!--librerias-->
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/43.js"></script>
+   </body>
+</html>
