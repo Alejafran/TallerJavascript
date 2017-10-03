@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--Alejandra Franco Tobón-->
+<html>
+   <head>
+      <title>exercise 40</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/40.css" rel="stylesheet">
+   </head>
+   
+   <body>
+      <div class="container col-md-6 col-md-offset-3" id="color">
+         <div>
+            <p>Type yours personal dates</p>
+         </div>
+         <div id="input" class="col-lg-12">
+            <form>
+               <h6>Type your name</h6>
+               <input id="name" type="text">
+               <h6>Select your id type</h6>
+               <select  id="id">
+                  <option></option>
+                  <option>identification card</option>
+                  <option>identity card</option>
+                  <option>Foireiner ID</option>
+                  <option>Passaport</option>
+               </select>
+               <h6>Type your number ID</h6>
+               <input  id="number" type="text">
+               <h6>Select your Gender</h6>
+               <select  id="gender">
+                  <option></option>
+                  <option>Male</option>
+                  <option>Female</option>
+               </select>
+               <h6>Type your height</h6>
+               <input id="height" type="text">
+               <h6>Do you live in Cartago?</h6>
+               <select  id="live">
+                  <option> </option>
+                  <option>Yes</option>
+                  <option>No</option>
+               </select>
+            </form>
+         </div>
+         <div class="col-md-7 col-md-offset-4">
+            <button id="button" onclick="button()" type="button" data-toggle="modal" data-target="#flipFlop">submit</button>
+         </div>
+      </div>
+
+      <!--modal-->
+      <div class="modal fade" id="flipFlop" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dissmiss="modal" aria-label="Close">
+                     <span aria-hidden="true"></span>
+                  </button>
+                  <h4 class="modal-title" id="modalLabel">Your Personal Information</h4>
+               </div>
+               <div id="modal" class="modal-body">
+                  
+               </div>
+               <div class="modal-footer" id="footer">
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!--librerias-->
+      <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="js/40.js"></script>
+   </body>
+</html>
