@@ -1,7 +1,7 @@
 
 //variables locales:
 
-var option, i, myArray, sequence1, bubble2;
+var option, i, myArray, sequence1, bubble2, nose2;
 
 //funciones:
 
@@ -24,7 +24,7 @@ function array () {
    
    var x= parseInt(prompt("Type the leght of the array"));
    
-   myArray = new Array(x)
+   myArray = new Array(x);
    
    for (i=0;i<myArray.length;i++){ 
    	
@@ -69,23 +69,64 @@ function bubble (y){
    return myArray;
 }
 
+function nose (z){
+    z = myArray;
+    
+//   for(i =1; i < myArray.length; i++){
+//      for(var j=0; j<(myArray.length - i); j++){
+//         if (myArray[j] > myArray[j+1] ){
+//            
+//            var aux = myArray[j+1];
+//            myArray[j+1] = myArray[j];
+//            myArray[j] = aux;
+//         }
+//         
+//      }
+//   }
+//   
+
+var i, j, aux;
+
+   if(i == (length-1)){
+
+      if(j == length){
+
+         for(i==(length-1); i>=0;i--){
+
+            for(j==(length); j>=1; j--){
+               if(myArray[j] <myArray[i]){
+
+                     aux=myArray[i];
+                     myArray[i]=myArray[j];
+
+                     myArray[j]=aux;
+               }
+            }
+         }
+      }
+   }
+
+   console.log("Apply bidirectional bubble sorting method: "+ myArray); //hay que quitar este 
+   return myArray;
+}
+
 
 // menu:
 
 do {
    option = menu();
    
-   if (option == 1) {
+   if (option === 1) {
       myArray = array ();
    }
-   if (option == 2) {
+   if (option === 2) {
       sequence2 = sequence();
    }
-   if (option == 3) {
+   if (option === 3) {
       bubble2 = bubble();
    }
-   if (option == 4) {
-      information4 =description();
+   if (option === 4) {
+      nose2 = nose();
    }
    if (option == 5){
       x =print();
